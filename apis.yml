@@ -1,8 +1,19 @@
 aid: dusty-robotics
 name: Dusty Robotics
-description: Dusty Robotics is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Dusty Robotics is a construction-technology company building automated
+  layout robotics for the building trades. Its flagship product, the
+  FieldPrinter, is a mobile robot that prints digital BIM models and design
+  drawings directly onto the jobsite floor at full scale, laying out walls,
+  penetrations, and other design intent so field teams build to plan with far
+  less manual measurement and rework. The FieldPrinter platform ingests
+  drawings from tools like Autodesk Revit and AutoCAD via native plugins,
+  translating the digital model into precise physical markings on the deck.
+  Dusty Robotics is headquartered in Mountain View, California and is backed
+  by investors including Canaan Partners. The company does not currently
+  publish a public developer API, SDK, or developer portal; its published
+  surfaces are the product site, a partner program, a support center, and the
+  Dusty Academy training resource.
 url: https://raw.githubusercontent.com/api-evangelist/dusty-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +21,55 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64d2bbdae796ca9291a4c909/6671d39772e4ca0c042b03ff_Dusty%20Robotics%20-%20What%20you%20design%20is%20what%20you%20build%20-%20Open%20Graph.webp
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Construction
+- Robotics
+- Automation
+- BIM
+- Construction Technology
+- Layout
+- Field Services
 apis: []
+common:
+- type: Website
+  url: https://www.dustyrobotics.com
+- type: Documentation
+  url: https://academy.dustyrobotics.com/
+- type: Support
+  url: https://support.dustyrobotics.com/hc/en-us
+- type: Blog
+  url: https://www.dustyrobotics.com/blog
+- type: Partners
+  url: https://www.dustyrobotics.com/partners
+- type: Jobs
+  url: https://www.dustyrobotics.com/careers
+- type: PrivacyPolicy
+  url: https://www.dustyrobotics.com/privacy
+- type: TermsOfService
+  url: https://www.dustyrobotics.com/terms-of-use
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
