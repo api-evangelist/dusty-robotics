@@ -33,7 +33,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://cdn.prod.website-files.com/64d2bbdae796ca9291a4c909/6671d39772e4ca0c042b03ff_Dusty%20Robotics%20-%20What%20you%20design%20is%20what%20you%20build%20-%20Open%20Graph.webp
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
